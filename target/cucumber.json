@@ -1,0 +1,87 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 28509197663,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchCarRegNo.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "I want to search car info",
+        "description": "",
+        "id": "search-car-reg-number;i-want-to-search-car-info",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18039525141,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the Home Screen",
+            "match": {
+              "location": "SearchCarRegNo.i_am_on_the_Home_Screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 598654889,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter Car Registration Number",
+            "match": {
+              "location": "SearchCarRegNo.i_enter_Car_Registration_Number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3152584289,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Find Car",
+            "match": {
+              "location": "SearchCarRegNo.i_click_on_Find_Car()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199870237,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should get Car information",
+            "match": {
+              "location": "SearchCarRegNo.i_should_get_Car_information()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Car Reg Number",
+    "description": "",
+    "id": "search-car-reg-number",
+    "keyword": "Feature",
+    "uri": "SearchCarRegNo.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SearchCarRegNo"
+      }
+    ]
+  }
+]
